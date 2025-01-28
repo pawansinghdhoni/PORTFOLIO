@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan Dhoni</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #784e4e;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #c26a6a;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+       
+        p{
+            color:#0c508f;
+        }
+        #contact p{
+            color:#14180f;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about .photo {
+            flex: 1;
+            text-align: center;
+        }
+
+        .about .photo img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .about .about-text {
+            flex: 2;
+            padding-left: 2rem;
+        }
+
+        .skills, .projects, .contact {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        li{
+            color:#c84646;
+        }
+        .skills ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        .skills ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .projects .project {
+            margin-bottom: 1.5rem;
+        }
+
+        .projects .project h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .projects .project p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0.5rem 0;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about .about-text {
+                padding-left: 0;
+                margin-top: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pawan Dhoni</h1>
+        <h5>IOT | Data Analyst</h5>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <div class="photo">
+                <img src="dhoni1 pic.jpg" alt="Pawan Dhoni">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm a passionate web developer with experience in creating responsive and user-friendly websites. I enjoy turning ideas into reality and continuously learning new technologies. My expertise lies in HTML, CSS, JavaScript, and modern frameworks like React. I am also proficient in backend technologies such as PHP and SQL.</p>
+                <p>When I am not coding, you can find me exploring new technologies, reading tech blogs, or experimenting with design tools to improve my creative skills. I am always looking for opportunities to grow and take on exciting challenges in the field of web development.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>PHP, SQL</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Communication skills</li>
+                <li>Leadership & management</li>
+                
+            </ul>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Home Automation</h3>
+                <h4>Responsibility: </h4><br>
+                <p>
+                    Home automation integrates smart technology into homes for enhanced convenience, efficiency, and security. It allows users to control lighting, climate, security systems, and entertainment devices remotely or through automation. Smart lighting adjusts brightness or colors, while smart thermostats optimize temperature and energy use. Security features include smart locks, video doorbells, and surveillance cameras for real-time monitoring. Entertainment systems, like smart TVs and speakers, can be controlled via apps or voice commands. Energy management tools, such as smart plugs and monitors, help reduce consumption and costs. With home automation, daily tasks become easier, homes more energy-efficient, and living spaces safer and more enjoyable.</p>
+            </div>
+            <div class="project">
+                <h3 style="color:gray">BarberShop Service Booking Site</h3>
+                <h4>Responsibility: </h4><br>
+                <p>The BarberShop Service Booking Site is a comprehensive platform designed for seamless online appointment scheduling. I developed the project using HTML, CSS, and JavaScript for a responsive user interface, and PHP with SQL for backend functionality.
+
+                    The site includes secure user registration and login, real-time appointment scheduling with dynamic time slots, and a responsive design for optimal usability on all devices. Users can browse services with detailed descriptions and pricing, while the admin panel enables efficient management of appointments, services, and user data.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p >If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+            <p>Email: dhonipawansingh@gmail.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/pawan-Dhoni-0b38b1328" target="_blank">LinkedIn Profile</a></p>
+            <p>Address: Almora Uttarakhand 263625 India</p>
+        </section>
+    </div>
+
+    <footer>
+        <h4>&copy; 2025 Pawan Dhoni. All Rights Reserved.</h4>
+    </footer>
+</body>
+</html>
